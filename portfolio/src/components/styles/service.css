@@ -1,0 +1,32 @@
+#Service{
+margin-top: 10rem;
+}
+.services_container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 4rem;
+}
+.service_img img{
+    border-radius :2rem ;
+}
+.service_img{
+    width: 100%;
+}
+.service_card{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 1rem;
+    background-color: var(--color-bg-variant);
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+.service_card:hover{
+    background-color: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+.project_content{
+    color: var(--color-light);
+}

@@ -1,0 +1,15 @@
+#experiences{
+    margin-top: 30rem;
+}
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.experience_details:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
