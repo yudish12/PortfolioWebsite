@@ -101,7 +101,9 @@ section{
     margin-top: 6rem;
   }
 }
-
+h1{
+  text-align: center;
+}
 @media screen and (max-width:600px){
   .container{
     width: var(--container-width-sm);
